@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="144x144"
+            href="/assets/images/favicon-1.ico">
+        <link rel="stylesheet" href="assets/style.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            />
+            <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+        <title>BIG DEAL STORE</title>
+    </head>
+    <body>
+        <div class="chat fa fa-brands fa-square-whatsapp" onclick="chat()"></div>
+        <header>
+            <ul class="nav-list animate__animated animate__backInDown">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon fa fa-home"></span>
+                        <span class="nav-text">HOME</span>
+
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="product/product.html" class="nav-link">
+                        <span class="nav-icon fa fa-cart-plus"></span>
+                        <span class="nav-text">PRODUCT</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="category/category.html" class="nav-link">
+                        <span class="nav-icon fa solid fa-list"></span>
+                        <span class="nav-text">CATEGORY</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact/contact.html" class="nav-link">
+                        <span class="nav-icon fa solid fa-address-card"></span>
+                        <span class="nav-text">CONTACT</span>
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <div class="card">
+                <h2 class="heading animate__animated animate__rubberBand"><span>BIG DEAL STORE</span></h2>
+
+                <!-- Row/Baris -->
+                <div class="row">
+                    <!-- Column / Kolom -->
+                    <div class="col" onclick="buy('baju lebaran', 100000)">
+                        <img src="/assets/images/product-1.jpg"/>
+                        <h4>Kaos</h4>
+                        <p>Rp.250.000</p>
+                    </div>
+                    <div class="col" onclick="buy('sepatu jumatan', 100000)">
+                        <img src="/assets/images/product-2.jpg"/>
+                        <h4>Sepatu Jumatan</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('celana tahun baru', 100000)">
+                        <img src="/assets/images/product-3.jpg"/>
+                        <h4>Celana Olahraga</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    
+                </div>
+                <h1 class="heading">
+                    Our <span>Feature</span>
+                </h1>
+                <div class="row">
+                    <!-- Column / Kolom -->
+                    <div class="col" onclick="buy('baju lebaran', 100000)">
+                        <img src="/assets/images/anteraja.png"/>                       
+                    </div>
+                    <div class="col" onclick="buy('sepatu jumatan', 100000)">
+                        <img src="/assets/images/jne.png"/>                  
+                    </div>
+                    <!-- <div class="col" onclick="buy('celana tahun baru', 100000)">
+                        <img src="/assets/images/jnt.png"/>
+                    </div> -->
+                    
+                </div>
+            </div>
+        </main>
+            
+        </main>
+        <footer>
+            <p>Copyright <span id="year"></span>. BIG DEAL STORE</p>
+            <div>
+                jere
+            </div>
+    
+
+        </footer>
+
+        <script src="assets/source.js"></script>
+    </body>
+</html>

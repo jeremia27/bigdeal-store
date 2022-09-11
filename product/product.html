@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/png" sizes="144x144"
+            href="/assets/images/favicon-1.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/style.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>BIG DEAL STORE</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            />
+    </head>
+    <body>
+        <header>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">
+                        <span class="nav-icon fa fa-home"></span>
+                        <span class="nav-text">HOME</span>
+
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/product/product.html" class="nav-link">
+                        <span class="nav-icon fa fa-cart-plus"></span>
+                        <span class="nav-text">PRODUCT</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/category/category.html" class="nav-link">
+                        <span class="nav-icon fa solid fa-list"></span>
+                        <span class="nav-text">CATEGORY</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact/contact.html" class="nav-link">
+                        <span class="nav-icon fa solid fa-address-card"></span>
+                        <span class="nav-text">CONTACT</span>
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <!-- section Page - Product List -->
+            <div class="card">
+                <h2 class="title animate__animated animate__rubberBand">Product List</h2>
+
+                <!-- Row/Baris -->
+                <div class="row">
+                    <!-- Column / Kolom -->
+                    <div class="col" onclick="buy('baju lebaran', 100000)">
+                        <img src="../assets/images/product-1.jpg"/>
+                        <h4>Kaos</h4>
+                        <p>Rp.250.000</p>
+                    </div>
+                    <div class="col" onclick="buy('sepatu jumatan', 100000)">
+                        <img src="../assets/images/product-2.jpg"/>
+                        <h4>Sepatu Jumatan</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('celana tahun baru', 100000)">
+                        <img src="../assets/images/product-3.jpg"/>
+                        <h4>Celana Olahraga</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('baju ungu', 100000)">
+                        <img src="../assets/images/product-4.jpg"/>
+                        <h4>Kaos Berkerah</h4>
+                        <p>Rp.150.000</p>
+                    </div>
+                    <div class="col" onclick="buy('sepatu silver', 100000)">
+                        <img src="../assets/images/product-5.jpg"/>
+                        <h4>Sepatu Kuliah</h4>
+                        <p>Rp.150.000</p>
+                    </div>
+                    <div class="col" onclick="buy('baju puma hitam', 100000)">
+                        <img src="../assets/images/product-6.jpg"/>
+                        <h4>Kaos Olahraga</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('kaos kaki', 100000)">
+                        <img src="../assets/images/product-7.jpg"/>
+                        <h4>Kaos Kaki</h4>
+                        <p>Rp.50.000</p>
+                    </div>
+                    <div class="col" onclick="buy('jam tangan fossil', 100000)">
+                        <img src="../assets/images/product-8.jpg"/>
+                        <h4>Jam Tangan Fossil</h4>
+                        <p>Rp.500.000</p>
+                    </div>
+                    <div class="col" onclick="buy('jam tangan hitam',100000)">
+                        <img src="../assets/images/product-9.jpg"/>
+                        <h4>Jam Tangan Raster</h4>
+                        <p>Rp.250.000</p>
+                    </div>
+                    <div class="col" onclick="buy('sepatu kuliah', 100000)">
+                        <img src="../assets/images/product-10.jpg"/>
+                        <h4>Sepatu Joging</h4>
+                        <p>Rp.150.000</p>
+                    </div>
+                    <div class="col" onclick="buy('sepatu teteh', 100000)">
+                        <img src="../assets/images/product-11.jpg"/>
+                        <h4>Sepatu Casual</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('celana joger', 100000)">
+                        <img src="../assets/images/product-12.jpg"/>
+                        <h4>Celana Olahraga</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright <span id="year"></span>. BIG DEAL STORE</p>
+
+        </footer>
+
+        <script src="../assets/source.js"></script>
+    </body>
+</html>
